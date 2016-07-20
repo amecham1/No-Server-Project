@@ -3,6 +3,6 @@ angular.module("getInfo")
 
 function mainCtrl($scope,firstService){
 
-$scope.test = firstService.getData();
+$scope.test = firstService.data;
 
 }// end of controller
