@@ -1,1 +1,1 @@
-angular.module("yourInfo",[]);
+angular.module("getInfo",[]);
