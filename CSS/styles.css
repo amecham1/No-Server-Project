@@ -1,0 +1,14 @@
+.nav-bar{
+  width: 100vw;
+  height: 10vh;
+  background-color: gray;
+  position: fixed;
+}
+
+.nav-bar h3{
+  text-align: center;
+  width: 100vw;
+}
+.btn-lg{
+  
+}
