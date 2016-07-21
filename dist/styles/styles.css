@@ -1,0 +1,46 @@
+body {
+  /*background-image: url(https://images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e476dbc9096ec1c869bd2cb97d82c70);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: darkgray; }
+
+/*Header Section*/
+.nav-bar {
+  width: 100vw;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  padding-bottom: 5px; }
+
+.nav-bar h3 {
+  text-align: center;
+  width: 100vw;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.button {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px; }
+
+/*Main Section*/
+.page-views {
+  width: 90vw;
+  height: 76vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 93px;
+  background-color: lightgray;
+  /*opacity: .5;*/ }
+
+/*Footer Section*/
+.footer-main {
+  width: 100vw;
+  height: 10vh;
+  background-color: gray;
+  position: fixed;
+  bottom: 0px; }

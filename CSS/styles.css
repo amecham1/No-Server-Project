@@ -35,10 +35,10 @@ body{
 
 .page-views{
   width: 90vw;
-  height: 75vh;
+  height: 76vh;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 93px;
   background-color: lightgray;
   /*opacity: .5;*/
 }
@@ -53,3 +53,38 @@ body{
   position: fixed;
   bottom: 0px;
 }
+
+
+/*Main Page*/
+
+.main-page{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+
+
+}
+.main-page h3{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  padding-left: 25px;
+}
+.main-page span{
+  padding-left: 180px;
+}
+
+.main-buttons{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-lg{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+/*End of Main Page*/
