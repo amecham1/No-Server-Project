@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="CSS/base.css"/>
     <link rel="stylesheet" href="CSS/styles.css"/>
-    <link rel="stylesheet" href="CSS/main.css/>
+    <link rel="stylesheet" href="CSS/main.css"/>
+    <link rel="stylesheet" href="CSS/quotes.css"/>
   </head>
   <body ng-controller="mainCtrl">
 
@@ -16,18 +17,18 @@
 <header class="nav-bar">
   <h3>Your Info</h3>
   <div class="button">
-  <button type="button" class="btn-md">Home</button>
-  <button type="button" class="btn-md">Quotes</button>
-  <button type="button" class="btn-md">Weather</button>
-  <button type="button" class="btn-md">Search</button>
+  <button class="btn-md" ui-serf="home"> Home </button>
+  <button type="button" class="btn-md" ui-serf="quotes"> Quotes </button>
+  <button type="button" class="btn-md" ui-serf="weather">Weather</button>
+  <button type="button" class="btn-md" ui-serf="info">Search</button>
 </div>
 </header>
 
 <!--Page View-->
 
-<section class ="page-views">
+<section  class ="page-views">
 
-  {{test}}
+<ui-view></ui-view>
 
 </section>
 
@@ -41,12 +42,11 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
-<script src="js/angular-ui-router.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 <script src="JS/app.js"></script>
 <script src="JS/Controller/MainCtrl.js"></script>
 <script src="JS/Directives/firstDirect.js"></script>
 <script src="JS/firstService.js"></script>
 <script src="JS/script.js"></script>
-<script src=""></script>
   </body>
 </html>
