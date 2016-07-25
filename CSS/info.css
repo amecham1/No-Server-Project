@@ -1,3 +1,47 @@
+/* Beginning of Info Page*/
+
 .info-page{
-  
+  height: 76vh;
 }
+
+.info-title{
+margin-left: auto;
+margin-right: auto;
+padding-top: 10px;
+font-size: 50px;
+text-align: center;
+}
+
+.info-box{
+width: 80vw;
+height: 62vh;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+
+}
+.search-bar{
+  position: absolute;
+  bottom: 0px;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}
+
+.wiki-search{
+  width: 50vw;
+  height: 4vh;
+  /*margin-left: auto;
+  margin-right:*/
+
+
+
+}
+
+.info-buttons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* End of Info Page */
