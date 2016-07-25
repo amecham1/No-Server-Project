@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="CSS/styles.css"/>
     <link rel="stylesheet" href="CSS/main.css"/>
     <link rel="stylesheet" href="CSS/quotes.css"/>
+    <link rel="stylesheet" href="CSS/weather.css"/>
+    <link rel="stylesheet" href="CSS/info.css"/>
   </head>
   <body ng-controller="mainCtrl">
 
@@ -17,10 +19,10 @@
 <header class="nav-bar">
   <h3>Your Info</h3>
   <div class="button">
-  <button class="btn-md" ui-serf="home"> Home </button>
-  <button type="button" class="btn-md" ui-serf="quotes"> Quotes </button>
-  <button type="button" class="btn-md" ui-serf="weather">Weather</button>
-  <button type="button" class="btn-md" ui-serf="info">Search</button>
+  <button class="btn-md"> <a ui-sref="home"> Home </a> </button>
+  <button class="btn-md"> <a ui-sref="quotes"> Quotes </a> </button>
+  <button class="btn-md"> <a ui-sref="weather"> Weather </a></button>
+  <button class="btn-md"> <a ui-sref="info"> Search </a></button>
 </div>
 </header>
 

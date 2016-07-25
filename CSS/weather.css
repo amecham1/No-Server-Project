@@ -1,0 +1,38 @@
+/* Start of Weather Page */
+
+.weather-page{
+height: 70vh;
+
+}
+
+.weather-title{
+  width: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.weather-info{
+  width: 70vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-icon{
+  width: 10vw;
+  height: 10vh;
+}
+
+.temp-icon{
+  width: 10vw;
+  height: 10vh;
+}
+
+/* End of Weather Page */

@@ -3,13 +3,12 @@ angular.module("getInfo", ["ui.router"])
             $stateProvider
 
                 .state('home', {
-                    url: '/',
+                    url: '/home',
                     templateUrl: "HTML/main.html"
                 })
 
                 .state('quotes',{
                url:'/quotes',
-               parent:'home',
                templateUrl: "HTML/quotes.html"
            })
 
@@ -24,5 +23,5 @@ angular.module("getInfo", ["ui.router"])
                 })
 
                 $urlRouterProvider
-            .otherwise('/');
+            .otherwise('/home');
 })
