@@ -1,17 +1,19 @@
 body{
-  /*background-image: url(https://images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e476dbc9096ec1c869bd2cb97d82c70);
+  background-image: url(https://images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e476dbc9096ec1c869bd2cb97d82c70);
   background-repeat: no-repeat;
-  background-size: cover;*/
-  background-color: darkgray;
+  background-size: cover;
 
 }
 /*Header Section*/
 
+.opc{
+  /*opacity: .3;*/
+}
 .nav-bar{
   width: 100vw;
-  background-color: gray;
-  /*position: fixed;*/
-  top: 0;
+  /*background-color: gray;*/
+  /*opacity: 1;*/
+  height: 10vh;
   padding-bottom:5px;
 }
 
@@ -21,6 +23,7 @@ body{
   margin-top: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 50px;
 }
 .button{
   width: 50vw;
@@ -38,9 +41,9 @@ body{
   height: 76vh;
   margin-left: auto;
   margin-right: auto;
-  /*margin-top: 93px;*/
-  background-color: lightgray;
-  /*opacity: .5;*/
+  margin-top: 50px;
+  /*background-color: lightgray;*/
+  /*opacity: 0.75;*/
 }
 
 .ng-scope{
@@ -53,7 +56,7 @@ height: 76vh;
 .footer-main{
   width: 100vw;
   height: 10vh;
-  background-color: gray;
-  /*position: fixed;*/
+  /*background-color: gray;*/
+  opacity: .5;
   bottom: 0px;
 }
